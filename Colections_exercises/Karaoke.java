@@ -34,6 +34,9 @@ public class Karaoke{
     }
 
     public static void main(String[] args){
+
+        // TODO: Criar metodo addToQueue()
+        // TODO Criar metodo playNextSong()
         Karaoke sistema_de_Karaoke = new Karaoke();
         sistema_de_Karaoke.consultaMusicas();
         sistema_de_Karaoke.consultaMusicas("cantor1");
