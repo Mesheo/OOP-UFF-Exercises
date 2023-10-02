@@ -7,9 +7,6 @@ Bem-vindo ao repositório de estudos de Orientação a Objeto usando Java! Este 
 Primeiro, faça um fork deste repositório para sua própria conta do GitHub. Isso criará uma cópia do repositório em sua conta, onde você poderá fazer alterações e enviar suas respostas.
 
 1. No canto superior direito deste repositório, clique no botão "Fork".
-
-![Fork](https://docs.github.com/assets/images/help/repository/fork_button.jpg)
-
 2. Aguarde alguns momentos enquanto o GitHub cria uma cópia do repositório em sua conta.
 
 ## 2. Clone o Seu Repositório Fork
@@ -36,7 +33,5 @@ git push origin master
 Depois de ter feito o commit das suas mudanças para o seu repositório fork, você pode criar um Pull Request (PR) para solicitar que suas respostas sejam incluídas no repositório principal.
 
 1. Navegue até a página do seu repositório fork no GitHub.
-
 2. Clique no botão "New Pull Request".
-
 3. Siga as instruções para criar o PR. Certifique-se de citar qual lista/exerício você adicionou ou modificou.
