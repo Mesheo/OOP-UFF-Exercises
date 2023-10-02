@@ -37,9 +37,11 @@ public class Codigo {
     }
 }
 
-/* RESPOSTAS
+/* 
+RESPOSTAS
 a) O programa A está correto pois não imprime o -1 quando após ele ser digitado
 
 b) Alterando a estrutura de repeticao do-while para um while comum. Como está escrito o DO 
 executa um bloco de código (nesse caso a impressão do que foi escrito) antes de verificar a condição
 de permanência no loop (código != -1)
+*/
