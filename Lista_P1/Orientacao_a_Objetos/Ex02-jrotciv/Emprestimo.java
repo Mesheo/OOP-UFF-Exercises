@@ -39,7 +39,8 @@ class Emprestimo{
         dataDevolucao = calendario.getTime();
     }
 
-    public void emprestar(){
+    //privado para evitar inconsistencia se acessado externamente
+    private void emprestar(){
         if (livro.isDisponivel()){
             livro.setDisponivel(false);
 
@@ -53,5 +54,10 @@ class Emprestimo{
         livro.setDisponivel(true);
     }
 
-    // metodo pra ver se ta pendente comparando a data de devolucao com a data atual
+    public void exibe(){
+        System.out.println("Codigo do livro: " + livro.getCod());
+        System.out.println("Codigo do cliente: " + pessoa.getCodCliente());
+        System.out.println("Data do emprestimo: " + dataEmprestimo);
+        System.out.println("Data de devolucao: " + dataDevolucao);
+    }
 }
