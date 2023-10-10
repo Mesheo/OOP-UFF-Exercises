@@ -1,10 +1,7 @@
-import java.util.ArrayList;
-import java.util.List;
-
 class Pessoa{
     private String nome;
     private String codCliente;
-    private List<Emprestimo> emprestimos = new ArrayList<>();
+    // private int totalLivros = 0;
 
     public Pessoa(String nome, String codCliente){
         this.nome = nome;
@@ -19,14 +16,18 @@ class Pessoa{
         return codCliente;
     }
 
-    public void addEmprestimo(Emprestimo emprestimo){
-        emprestimos.add(emprestimo);
+    // public boolean verificarTotalLivros(){
+    //     if (totalLivros == 3){
+    //         return false;
+    //     }
+
+    //     totalLivros++;
+
+    //     return true;
+    // }
+
+    public void exibe(){
+        System.out.println("Nome: " + nome);
+        System.out.println("Codigo: " + codCliente);
     }
-
-    public void removeEmprestimo(Emprestimo emprestimo){
-        emprestimos.remove(emprestimo);
-    }
-
-
-    // metodos nao sei ainda. Pegar ou devolver livros?
 }
