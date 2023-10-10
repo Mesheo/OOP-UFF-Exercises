@@ -11,16 +11,16 @@ class Livro{
         this.codigo = codigo;
     }
 
-    public String getCod(){
-        return codigo;
-    }
-
     public String getTitulo(){
         return titulo;
     }
 
     public String getAutor(){
         return autor;
+    }
+
+    public String getCod(){
+        return codigo;
     }
 
     public Boolean isDisponivel(){
@@ -32,6 +32,9 @@ class Livro{
     }
     
     public void exibe(){
-        System.out.println(titulo + " - " + autor + " - ");
+        System.out.println("Titulo: " + titulo);
+        System.out.println("Autor: " + autor);
+        System.out.println("Codigo: " + codigo);
+        System.out.println("Disponivel: " + disponivel);
     }
 }
